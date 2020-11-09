@@ -58,8 +58,19 @@ if (isset($_POST['ren-c'])) {
 
 ?>
 </form>
-
 <hr>
+
+<!-- Exercice 4 -->
+<?php
+    
+    for ($e = 1; $e <= 10; $e++) {
+    $e2 = $e / 2;
+    $er = $e + $e2;
+    echo $er . "<br>";
+    }
+
+?>
+
 
 </body>
 </html>
