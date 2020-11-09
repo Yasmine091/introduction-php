@@ -71,6 +71,15 @@ if (isset($_POST['ren-c'])) {
 
 ?>
 
+<!-- Exercice 5 -->
+<?php
+    
+    for ($f = 1; $f <= 15; $f++) {
+    echo "<br>" . $f . " - On y arrive presque...";
+    }
+
+?>
+
 
 </body>
 </html>
