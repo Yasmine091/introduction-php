@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro PHP #1</title>
+    <title>Intro PHP #1 - Boucles</title>
 </head>
 <body>
 
@@ -101,11 +101,12 @@ if (isset($_POST['ren-c'])) {
 ?>
 <hr>
 
-<!-- Exercice 8 -->
+<!-- Exercice 8 avec while pour tester!!! -->
 <?php
-    
-    for ($i = 200; $i >= 0; $i = $i-12) {
+    $i = 200;
+    while ($i >= 0) {
     echo "<br>" . $i . " - Enfin ! ! !";
+    $i = $i - 12;
     }
 
 ?>
