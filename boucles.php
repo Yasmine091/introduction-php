@@ -79,6 +79,16 @@ if (isset($_POST['ren-c'])) {
     }
 
 ?>
+<hr>
+
+<!-- Exercice 6 -->
+<?php
+    
+    for ($g = 20; $g >= 0; $g--) {
+    echo "<br>" . $g . " - C'est presque bon...";
+    }
+
+?>
 
 
 </body>
