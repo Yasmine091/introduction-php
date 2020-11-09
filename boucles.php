@@ -38,6 +38,28 @@ if (isset($_POST['rnd-c'])) {
 <hr>
 
 <!-- Exercice 3 -->
+<form method="POST">
+<?php $d = mt_rand(0, 101);?>
+<input type="hidden" name="rnd-d" value="<?=$d;?>">
+<input type="submit" name="ren-c" value="Exercice 3">
+<br>
+
+<?php
+if (isset($_POST['ren-c'])) {
+
+    $nd = $_POST['rnd-d'];
+    
+    for ($c = 100; $c >= 11; $c--) {
+    $multp2 = $c * $nd;
+    echo $multp2 . $c . "<br>";
+    
+    }
+}
+
+?>
+</form>
+
+<hr>
 
 </body>
 </html>
