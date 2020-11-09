@@ -89,7 +89,16 @@ if (isset($_POST['ren-c'])) {
     }
 
 ?>
+<hr>
 
+<!-- Exercice 7 -->
+<?php
+    
+    for ($h = 1; $h <= 100; $h = $h+15) {
+    echo "<br>" . $h . " - On tient le bon bout...";
+    }
+
+?>
 
 </body>
 </html>
