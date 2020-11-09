@@ -32,7 +32,8 @@
     }
 
     $lol = "Mdr lol";
-    func_str($lol);
+    echo func_str($lol);
+    echo '<hr>';
 
 
     # Exercice 3
@@ -40,7 +41,8 @@
     {
         return $a . $b;
     }
-    concat("Bra", "vo!");
+    echo concat("Bra", "vo!");
+    echo '<hr>';
 
 
     # Exercice 4
@@ -58,9 +60,9 @@
 
         return $results;
     }
-    var_dump(nombres(0, 4));
-    var_dump(nombres(4, 0));
-    var_dump(nombres(4, 4));
+    echo nombres(0, 4);
+    echo nombres(4, 0);
+    echo nombres(4, 4);
     echo '<hr>';
 
 
@@ -70,7 +72,7 @@
         return $a . $b;
     }
 
-    var_dump(int_str(9, ", joli mon neuf!"));
+    echo int_str(9, ", joli mon neuf!");
     echo '<hr>';
 
 
@@ -80,7 +82,7 @@
         return 'Bonjour ' . $nom . ' ' . $prenom . ', tu as ' . $age . ' ans.';
     }
 
-    var_dump(personne("EMDOUNAN ARDAM", "Yasmine", "20"));
+    echo personne("EMDOUNAN ARDAM", "Yasmine", "20");
     echo '<hr>';
 
 
@@ -102,10 +104,10 @@
 
         return $gre_ag;
     }
-    var_dump(age_genre(16, "homme"));
-    var_dump(age_genre(20, "homme"));
-    var_dump(age_genre(16, "femme"));
-    var_dump(age_genre(20, "femme"));
+    echo 'CAS 1 : ', age_genre(16, "homme");
+    echo 'CAS 2 : ', age_genre(20, "homme");
+    echo 'CAS 3 : ', age_genre(16, "femme");
+    echo 'CAS 4 : ', age_genre(20, "femme");
     echo '<hr>';
 
 
@@ -125,7 +127,7 @@
         return $a + $b + $c;
     }
 
-    var_dump(somme(null, 9, 9));
+    echo somme(null, 9, 9);
     ?>
 
 </body>
