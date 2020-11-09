@@ -51,7 +51,7 @@ if (isset($_POST['ren-c'])) {
     
     for ($c = 100; $c >= 11; $c--) {
     $multp2 = $c * $nd;
-    echo $multp2 . $c . "<br>";
+    echo $multp2 . "<br>";
     
     }
 }
