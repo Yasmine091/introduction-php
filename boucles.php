@@ -99,6 +99,16 @@ if (isset($_POST['ren-c'])) {
     }
 
 ?>
+<hr>
+
+<!-- Exercice 8 -->
+<?php
+    
+    for ($i = 200; $i >= 0; $i = $i-12) {
+    echo "<br>" . $i . " - Enfin ! ! !";
+    }
+
+?>
 
 </body>
 </html>
