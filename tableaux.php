@@ -43,22 +43,41 @@ $mois = [
 $mois[7] = "Août";
 # view($mois[7]);
 
-
 # Exercice 5
+$dep = [
+    02 => 'Aisne',
+    60 => 'Oise',
+    62 => 'Pas-de-Calais',
+    80 => 'Somme'
+];
+
+
+# Exercice 7
 $mois[13] = 'Fleurence';
 # view($mois[13]);
+$dep[59] = 'Nord';
 
 
-# Exercice ?
+# Exercice 9
 for ($i = 1; $i <= count($mois); $i ++){
     view($mois[$i]);
 }
+for ($i = 1; $i <= count($dep); $i ++){
+    view($dep[$i]);
+}
 
-# Exercice ?
+# Exercice 10
 
 foreach($mois as $i => $rmois){
     echo "Mois $i : $rmois <br>";
   }
+
+ echo '<br><br>';
+  
+foreach($dep as $i => $rdep){
+    echo "Le département $i a le numéro $rdep <br>";
+}
+
 
 ?>
     
