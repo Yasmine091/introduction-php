@@ -73,7 +73,7 @@ foreach($mois as $i => $rmois){
   }
 
  echo '<br><br>';
-  
+
 foreach($dep as $i => $rdep){
     echo "Le département $i a le numéro $rdep <br>";
 }
